@@ -1,0 +1,37 @@
+CS101,Computer Programming
+CS110,Computer Programming Lab
+EC101,Digital Design
+EC110,Digital Design Lab
+EC102,Electrical Circuit Analysis
+CS103,Data Structures
+CS111,Data Structures Lab
+CS104,Computer Organization
+CS201,Algorithms
+CS210,Algorithm Lab
+CS221,Data Communication
+CS202,IT WorkShop I
+CS301,Theory Of Computation
+CS352,Computer Networks
+CS353,Computer Networks Lab
+CS351,IT Workshop III
+CS306,Machine Learning
+CS401,Data Analytics
+CS430,Parallel Programming
+CS440,Image and Video Processing
+CS414,Advanced Computer Architecture
+CS415,Ubiquitous Computing
+EC103,Basic Electronics Circuit
+EC201,Analogs Circuits
+EC260,Semiconductor Devices
+EC241,Signals and Systems
+EC281,Measurement and Instrumentation
+EC251,Principles of Communication
+EC351,Digital Communication
+EC352,Digital Communications Lab
+EC301,Analog Integrated Circuits
+EC302,Analog Integrated Circuits Lab
+EC370,Electromagnetics
+EC452,Detection and Estimation Theory
+EC455,Wireless Sensor Networks
+EC461,VLSI Technology
+EC471,Antennas and Wave Propagation

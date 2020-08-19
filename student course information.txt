@@ -1,0 +1,4 @@
+Name	Roll no.	Semester	Course List
+
+Abhinav Singh	CS10001	5	CS301-Theory Of Computation,CS352-Computer Networks,CS353-Computer Networks Lab,
+Diwakar Bharti	CS10002	6	CS301-Theory Of Computation,CS352-Computer Networks,CS351-IT Workshop III,

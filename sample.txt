@@ -1,0 +1,1 @@
+Mam if score could be categorized as low, medium or high it will be a classification we are considering it as regression because we predict the approximate score and not exact score right so classifcation will give the range and regression will give precisely
