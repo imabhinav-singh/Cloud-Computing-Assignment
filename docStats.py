@@ -1,4 +1,7 @@
-# implement this
+import nltk
+from nltk.corpus import stopwords
+nltk.download('stopwords')
+
 def readFile(filename):
     return filename.read()
 
@@ -25,10 +28,15 @@ def main():
     print("Number of words:- "+str(wordCount(contents)))
     print("Top 10 words:- "+str(topTenWords(contents)))
 
-    stopWords = ['a', 'an', 'the', 'how', 'who', 'what', 'of', 'for', 'is', 'was', 'are', 'do', 'if', 'could',
-                 'would', 'should', 'then', 'than', 'be', 'as', 'or', 'and', 'it', 'will', 'shall', 'we', 'us',
-                 'he', 'him', 'his', 'her', 'she', 'they', 'them', 'because', 'as']
-    print("Top 10 keywords:- " + str(topTenKeyWords(contents, stopWords)))
+    stopWords = set(stopwords.words('english'))
+    print("Top 10 keywords:- ")
+    count = 0
+    for w in contents.split():
+        if w not in stopWords:
+            print(w)
+            count += 1
+        if count == 10:
+            break
     filename.close()
 
 if __name__ == '__main__':
